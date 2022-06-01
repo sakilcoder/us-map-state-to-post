@@ -1,0 +1,45 @@
+html,
+body {
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+#map {
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+}
+.btn-home {
+    z-index: 50;
+}
+.popupCustom .leaflet-popup-content-wrapper {
+    background: #FDF6EC;
+    color: #180A0A;
+    font-size: 14px;
+    line-height: 24px;
+    border-radius: 0px;
+}
+.popupCustom .leaflet-popup-content-wrapper a {
+    color: #3A3845;
+}
+.popupCustom .leaflet-popup-tip-container {
+    width: 125px;
+    height: 15px;
+}
+.popupCustom .leaflet-popup-tip {
+    background: transparent;
+    border: none;
+    box-shadow: none;
+}
+
+.leaflet-bar.disabled,
+.leaflet-bar button.disabled {
+  opacity: 0;
+  border: none;
+}
